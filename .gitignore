@@ -35,3 +35,5 @@ Gemfile.lock
 .rvmrc
 
 packaging/vendor
+
+dist/*

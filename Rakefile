@@ -78,7 +78,7 @@ def create_package(target)
   sh "mkdir #{package_dir}/lib/vendor/.bundle"
   sh "cp packaging/bundler-config #{package_dir}/lib/vendor/.bundle/config"
   if !ENV['DIR_ONLY']
-    sh "tar -czf #{package_dir}.tar.gz #{package_dir}"
+    sh "tar -czf dist/#{package_dir}.tar.gz #{package_dir}"
     sh "rm -rf #{package_dir}"
   end
 end
