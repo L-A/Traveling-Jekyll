@@ -12,4 +12,4 @@ unset BUNDLE_IGNORE_CONFIG
 # Start up and forward arguments to Jekyll
 # TODO avoid hardcoded version directory name
 
-exec "$SELFDIR/lib/ruby/bin/ruby" -rbundler/setup "$SELFDIR/lib/vendor/ruby/2.1.0/bin/jekyll" $@
+exec "$SELFDIR/lib/ruby/bin/ruby" -rbundler/setup "$SELFDIR/lib/vendor/ruby/2.2.0/bin/jekyll" "$@"
