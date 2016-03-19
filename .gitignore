@@ -35,5 +35,6 @@ Gemfile.lock
 .rvmrc
 
 packaging/vendor
+packaging/*.tar.gz
 
 dist/*
