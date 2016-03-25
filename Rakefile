@@ -2,7 +2,7 @@
 require 'bundler/setup'
 
 PACKAGE_NAME = "traveling-jekyll"
-PACKAGE_VERSION = "1.0.0"
+PACKAGE_VERSION = "3.1.2a"
 TRAVELING_RUBY_VERSION = "20150210-2.2.0"
 FFI_VERSION = "1.9.6"
 
