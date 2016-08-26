@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+#! Read files as UTF-8 by default
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Figure out where this script is located.
 SELFDIR="`dirname \"$0\"`"
 SELFDIR="`cd \"$SELFDIR\" && pwd`"
